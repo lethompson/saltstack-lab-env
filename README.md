@@ -40,3 +40,12 @@ id: <PUBLIC EC2 DNS>
 
 ```
 
+### Accept salt-key for the salt-minion & salt-master to communicate with one another
+
+```
+> sudo salt-key -L (check the list of keys accepted or not accepted)
+
+> sudo salt-key -a <SALT KEY TO ACCEPT> (accept the key from the list)
+
+```
+
