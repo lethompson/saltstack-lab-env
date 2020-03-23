@@ -16,3 +16,13 @@ apt-get install salt-cloud -y
 apt-get install salt-api -y
 
 ```
+
+### ssh into the EC2 instance & configure the /etc/salt/minion
+```
+> sudo vi /etc/salt/minion
+
+master: <localhost>
+id: <PUBLIC EC2 DNS>
+
+```
+
