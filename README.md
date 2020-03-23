@@ -26,4 +26,17 @@ id: <PUBLIC EC2 DNS>
 
 (save & quite)
 ```
+### Restart the salt-minion
+```
+> sudo service salt-minion restart
+
+```
+
+### Check the status of salt-minion & salt-master
+```
+> sudo systemctl status salt-minion (check the salt-minion)
+
+> sudo systemctl status salt-master (check the salt-master)
+
+```
 
