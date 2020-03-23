@@ -34,9 +34,9 @@ id: <PUBLIC EC2 DNS>
 
 ### Check the status of salt-minion & salt-master
 ```
-> sudo systemctl status salt-minion (check the salt-minion)
+> sudo systemctl status salt-minion 
 
-> sudo systemctl status salt-master (check the salt-master)
+> sudo systemctl status salt-master 
 
 ```
 
