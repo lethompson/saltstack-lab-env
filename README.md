@@ -17,7 +17,7 @@ apt-get install salt-api -y
 
 ```
 
-### ssh into the EC2 instance & configure the /etc/salt/minion
+### Configure the /etc/salt/minion
 ```
 > sudo vi /etc/salt/minion
 
