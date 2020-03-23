@@ -4,6 +4,7 @@
 
 ## Installing salt master & minion on Linux ubuntu 16.04
 
+###  	install_apache_saltmaster.sh (userdata script includes the following for installing salt)
 
 ```
 wget -O - https://repo.saltstack.com/apt/ubuntu/16.04/amd64/latest/SALTSTACK-GPG-KEY.pub | apt-key add -
