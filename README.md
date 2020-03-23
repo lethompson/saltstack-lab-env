@@ -24,5 +24,6 @@ apt-get install salt-api -y
 master: <localhost>
 id: <PUBLIC EC2 DNS>
 
+(save & quite)
 ```
 
