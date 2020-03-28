@@ -1,6 +1,6 @@
 # Terraform setup for saltstack environment
 
-
+![Terraform-AWS](https://github.com/lethompson/saltstack-lab-env/blob/master/Terraform-AWS.png)
 
 
 
