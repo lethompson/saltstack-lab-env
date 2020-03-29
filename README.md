@@ -64,6 +64,29 @@ variable "name" {
 }
 ```
 
+# Output the AWS instance public DNS 
+## outputs.tf
+
+```
+output "public_dns" {
+
+   value = "${aws_instance.ubuntu.public_dns}"
+}
+```
+
+## Steps to deploy the AWS infrastructure for the AWS saltstack lab environment
+
+```
+> terraform init
+```
+
+```
+> terraform plan -out=tfplan
+```
+
+```
+> terraform apply tfplan
+```
 
 # SaltStack Environment Setup
 
