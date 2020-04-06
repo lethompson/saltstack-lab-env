@@ -146,7 +146,7 @@ id: <PUBLIC EC2 DNS>
 
 > cd /srv
 
-> git clone https://ens-lthompson@bitbucket.org/ens-lthompson/aws-saltstack.git
+> git clone https://github.com/lethompson/aws-saltstack.git
 
 ```
 
