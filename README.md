@@ -1,6 +1,6 @@
 # Terraform setup for saltstack environment
 
-![Terraform-AWS](https://github.com/lethompson/saltstack-lab-env/blob/master/Terraform-AWS.png)
+![TerraformAWS](/img/Terraform-AWS.png)
 
 # AWS ubuntu instance with user data for saltstack installation
 ## main.tf 
@@ -90,7 +90,7 @@ output "public_dns" {
 
 # SaltStack Environment Setup
 
-![saltstack](https://github.com/lethompson/saltstack-lab-env/blob/master/how-to-install-salt.png)
+![saltstack](/img/how-to-install-salt.png)
 
 ## Installing salt master & minion on Linux ubuntu 16.04
 
