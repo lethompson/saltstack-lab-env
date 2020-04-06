@@ -138,4 +138,55 @@ id: <PUBLIC EC2 DNS>
 > sudo salt-key -a <SALT KEY TO ACCEPT> (accept the key from the list)
 
 ```
+### Clone the repo for saltstack
 
+```
+
+> sudo su - (switch to root user)
+
+> cd /srv
+
+> git clone https://ens-lthompson@bitbucket.org/ens-lthompson/aws-saltstack.git
+
+```
+
+### SaltStack file structure for lab environment
+
+```
+aws-saltstack repo:
+
+.
+├── keys
+├── pillar
+│   ├── swl.sls
+│   ├── top.sls
+│   └── users.sls
+├── reactor
+├── salt
+│   ├── logging
+│   │   ├── files
+│   │   │   └── cron.daily
+│   │   │       └── 00logwatch
+│   │   └── init.sls
+│   ├── nginx
+│   │   ├── files
+│   │   │   └── nginx.conf
+│   │   └── init.sls
+│   ├── redis
+│   │   └── init.sls
+│   ├── requirements
+│   │   └── init.sls
+│   ├── ssh
+│   │   ├── files
+│   │   │   └── sshd_config
+│   │   └── init.sls
+│   ├── swl
+│   │   ├── files
+│   │   └── init.sls
+│   ├── top.sls
+│   └── users
+│       ├── files
+│       └── init.sls
+└── users.sls
+
+```
